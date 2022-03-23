@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: fcb-regular,Arial,Helvetica Neue,Helvetica,sans-serif;
+    background-image: radial-gradient(circle, red, yellow, green);
+}
+
+header{
+    display: flex;
+    width: 900px;
+    margin: auto;
+    border-left: none; 
+  border-right: none; 
+  border-top: none;
+  border-bottom: 10px solid;
+  border-image: linear-gradient(to right, green,red) 80% 0%;
+}
+
+header .fc{
+    display: flex;
+    background-color:#1CAB42;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    justify-content: center;
+}
+header .fc img{
+    width: 50px;
+    height: 60px;
+    transform: translateY(17px);
+}
+header .fc h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+
+header .ulli{
+    width: 100%;
+    
+}
+header .ulli .follow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #0A0927;
+    width: 100%;
+}
+header .ulli .follow img{
+    width: 30px;
+    height: 30px;
+}
+header .ulli .follow .social{
+    display: flex;
+    color: #9D9DA9;
+    
+}
+header .ulli .follow .social p{
+    padding: 0px 10px;
+}
+header .ulli .follow .social img{
+    display: flex;
+    transform: translateY(14px);
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+}
+
+.login a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+   
+    
+}
+.login{
+    margin: auto 20px;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar ul li{
+    background-color: #181733;
+    color: white;
+    width: 100%;
+    height: 80px;
+    border-right: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+header .login button{
+background-color: green;
+padding: 10px;
+color: white;
+border: none;
+border-radius: 40px;
+}
+.barsa_body main{
+    width: 900px;
+    margin: auto;
+
+}
+.barsa_body main img{
+   
+    width: 900px;
+}
+.barsa_body main .main{
+    position: absolute;
+    width: 1000px;
+}
+.barsa_body main .p1{
+    position: relative;
+    top: 500px;
+   text-align: center;
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+    color: white;
+    
+}
+
+.barsa_body main .p p{
+   
+    position: relative;
+    top: 500px;
+    padding: 10px;
+    z-index: 1;
+}
+.barsa_body main .p{
+    position: absolute;
+   z-index: 2;
+   top: 680px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(24, 65, 42);
+    color: white;
+width: 900px;
+}
+.barsa_body main .p button{
+    height: 30px;
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    border: none;
+    border-radius: 40px;
+    transform: translateY(10px);
+}
